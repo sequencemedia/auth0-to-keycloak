@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "env": {
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "semi": [
+      "error"
+    ],
+    "semi-style": [
+      "error",
+      "last"
+    ],
+    "no-irregular-whitespace": [
+      "error"
+    ],
+    "indent": [
+      "error",
+      2
+    ]
+  },
+  "globals": {
+    "Map": "readonly",
+    "configuration": "readonly",
+    "WrongUsernameOrPasswordError": "readonly"
+  }
+}

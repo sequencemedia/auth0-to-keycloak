@@ -1,0 +1,5 @@
+# Default behavior
+* text=auto
+
+# LF line endings
+*.sh text eol=lf

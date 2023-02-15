@@ -1,0 +1,31 @@
+{
+  "name": "@sequencemedia/auth0-to-keycloak",
+  "version": "1.0.0",
+  "main": "./index.mjs",
+  "author": {
+    "name": "Jonathan Perry for Sequence Media Limited",
+    "email": "sequencemedia@sequencemedia.net",
+    "url": "http://sequencemedia.net"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sequencemedia/auth0-to-keycloak.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@types/node": "^18.13.0",
+    "core-js": "^3.28.0",
+    "eslint": "^8.34.0"
+  }
+}
